@@ -62,7 +62,7 @@ function Home() {
               {
                 settingsArray.map((data,index)=>{
                       return(
-                         <div className="[font-family:'Arimo']  w-[22.375rem] h-[3.75rem] justify-center items-center bg-[#EEE] color-[#040404] text-[1rem] font-normal px-[0.75rem] py-[1rem] rounded-md leading-[1.2rem]  hover:bg-gray-200 transition duration-300 ease-in-out hover:shadow-xl pointer max-sm:w-[20.5rem] " key={index}>
+                         <div className="[font-family:'Arimo']  w-[22.375rem] h-[3.75rem] justify-center items-center bg-[#EEE] color-[#040404] text-[1rem] font-normal px-[0.75rem] py-[1rem] rounded-md leading-[1.2rem]  hover:bg-gray-200 transition duration-300 ease-in-out hover:shadow-xl pointer max-sm:w-[20.5rem] max-sm:h-[3.4rem] " key={index}>
                    {data}
                  </div>
                       )
